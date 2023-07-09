@@ -32,7 +32,8 @@ a:hover{
 }
 
 .b{
-    background-image: url("./asset/image/background.jpg");
+    background-image: url("./asset/image/background.jpg"),linear-gradient(black,gray);
+    background-blend-mode: overlay ;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
